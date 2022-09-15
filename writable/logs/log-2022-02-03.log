@@ -1,0 +1,119 @@
+CRITICAL - 2022-02-03 12:25:43 --> Undefined variable: resultObject
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Views\admin\transaksi-admin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/admin/transaks...', Array, true)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(356): view('/admin/transaks...', Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->transaksiadmin()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 12:32:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2022-02-02'
+GROUP BY `notransaksi`' at line 3 in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(353): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->transaksiadmin()
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-03 12:32:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2022-02-02'
+GROUP BY `notransaksi`' at line 3
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(353): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->transaksiadmin()
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-03 12:36:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+GROUP BY `notransaksi`' at line 3 in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(356): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->transaksiadmin()
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-03 12:36:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+GROUP BY `notransaksi`' at line 3
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(356): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->transaksiadmin()
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-03 00:45:03 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(663): CodeIgniter\Model->update('10118300', Array)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(85): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->createuser()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-03 01:43:01 --> mysqli_sql_exception: Duplicate entry '10118300' for key 'PRIMARY' in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->createuser()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-02-03 01:43:01 --> Duplicate entry '10118300' for key 'PRIMARY'
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->createuser()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}

@@ -1,0 +1,120 @@
+ERROR - 2022-02-12 08:53:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-12 08:53:56 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(3, 0)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\BlogpostModel.php(23): CodeIgniter\BaseModel->findAll(3)
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(32): App\Models\BlogpostModel->getBlogpost3()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-12 08:53:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(281): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-12 08:54:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-12 08:54:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(3, 0)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\BlogpostModel.php(23): CodeIgniter\BaseModel->findAll(3)
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(32): App\Models\BlogpostModel->getBlogpost3()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-12 08:54:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(281): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-12 08:55:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-12 08:55:08 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(3, 0)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\BlogpostModel.php(23): CodeIgniter\BaseModel->findAll(3)
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(32): App\Models\BlogpostModel->getBlogpost3()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-12 08:55:08 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(281): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-12 08:55:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-12 08:55:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(3, 0)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\BlogpostModel.php(23): CodeIgniter\BaseModel->findAll(3)
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(32): App\Models\BlogpostModel->getBlogpost3()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-12 08:55:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(281): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-12 09:05:07 --> Undefined index: status
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Admin->ceklogin()
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-12 09:11:37 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/logout')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(761): CodeIgniter\Router\Router->handle('admin/logout')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

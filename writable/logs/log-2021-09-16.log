@@ -1,0 +1,147 @@
+CRITICAL - 2021-09-16 00:03:02 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:03:34 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:03:56 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:04:16 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:05:10 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-09-16 00:06:16 --> mysqli_sql_exception: Column 'kodekatagori' in where clause is ambiguous in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\ProdukModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(45): App\Models\ProdukModel->getProduktag('9')
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-16 00:06:16 --> Column 'kodekatagori' in where clause is ambiguous
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Models\ProdukModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(45): App\Models\ProdukModel->getProduktag('9')
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-16 00:12:41 --> Too few arguments to function App\Controllers\Home::producttag(), 0 passed in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php on line 873 and exactly 1 expected
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:14:15 --> Too few arguments to function App\Controllers\Home::producttag(), 0 passed in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php on line 873 and exactly 1 expected
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:14:51 --> Too few arguments to function App\Controllers\Home::detailproduk(), 0 passed in C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php on line 873 and exactly 1 expected
+#0 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->detailproduk()
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-16 00:16:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Views\home\produk.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/home/produk', Array, true)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(48): view('/home/produk', Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-16 00:17:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Views\home\produk.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/home/produk', Array, true)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(48): view('/home/produk', Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-16 00:29:34 --> Undefined variable: katagori
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Views\home\produk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/home/produk', Array, true)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(39): view('/home/produk', Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->product()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-16 00:29:53 --> Undefined property: App\Controllers\Home::$katagori
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-16 00:31:12 --> Call to undefined method App\Models\KatagoriModel::getProduktag
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(49): CodeIgniter\Model->__call('getProduktag', Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->producttag('9')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-16 00:31:51 --> Undefined variable: katagori
+#0 C:\xampp\htdocs\syifa_hidroponik\app\Views\home\produk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/home/produk', Array, true)
+#4 C:\xampp\htdocs\syifa_hidroponik\app\Controllers\Home.php(43): view('/home/produk', Array)
+#5 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(873): App\Controllers\Home->product()
+#6 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\syifa_hidroponik\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\syifa_hidroponik\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
